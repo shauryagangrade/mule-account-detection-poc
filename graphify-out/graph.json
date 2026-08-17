@@ -1,0 +1,660 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "mule_detection_pipeline",
+        "label": "Mule Account Detection Pipeline",
+        "nodes": [
+          "readme_synthetic_data_generation",
+          "readme_feature_engineering",
+          "readme_anomaly_detection_model",
+          "readme_network_analysis",
+          "readme_risk_scoring",
+          "readme_investigator_dashboard"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "dashboard",
+      "community": 3,
+      "norm_label": "dashboard.py"
+    },
+    {
+      "label": "generate_data.py",
+      "file_type": "code",
+      "source_file": "generate_data.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "generate_data",
+      "community": 4,
+      "norm_label": "generate_data.py"
+    },
+    {
+      "label": "train_model.py",
+      "file_type": "code",
+      "source_file": "train_model.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "train_model",
+      "community": 6,
+      "norm_label": "train_model.py"
+    },
+    {
+      "label": "Mule Account Detection POC",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_mule_account_detection_poc",
+      "community": 0,
+      "norm_label": "mule account detection poc"
+    },
+    {
+      "label": "Synthetic Data Generation",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_synthetic_data_generation",
+      "community": 0,
+      "norm_label": "synthetic data generation"
+    },
+    {
+      "label": "Feature Engineering",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_feature_engineering",
+      "community": 0,
+      "norm_label": "feature engineering"
+    },
+    {
+      "label": "Anomaly Detection Model",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_anomaly_detection_model",
+      "community": 0,
+      "norm_label": "anomaly detection model"
+    },
+    {
+      "label": "Network Analysis",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_network_analysis",
+      "community": 0,
+      "norm_label": "network analysis"
+    },
+    {
+      "label": "Risk Scoring",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_risk_scoring",
+      "community": 0,
+      "norm_label": "risk scoring"
+    },
+    {
+      "label": "Investigator Dashboard",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_investigator_dashboard",
+      "community": 2,
+      "norm_label": "investigator dashboard"
+    },
+    {
+      "label": "generate_data.py",
+      "file_type": "code",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_generate_data_py",
+      "community": 0,
+      "norm_label": "generate_data.py"
+    },
+    {
+      "label": "train_model.py",
+      "file_type": "code",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_train_model_py",
+      "community": 0,
+      "norm_label": "train_model.py"
+    },
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_dashboard_py",
+      "community": 2,
+      "norm_label": "dashboard.py"
+    },
+    {
+      "label": "requirements.txt",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_requirements_txt",
+      "community": 1,
+      "norm_label": "requirements.txt"
+    },
+    {
+      "label": "Isolation Forest Algorithm",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_isolation_forest",
+      "community": 1,
+      "norm_label": "isolation forest algorithm"
+    },
+    {
+      "label": "NetworkX",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_networkx",
+      "community": 1,
+      "norm_label": "networkx"
+    },
+    {
+      "label": "Future Enhancements",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_future_enhancements",
+      "community": 5,
+      "norm_label": "future enhancements"
+    },
+    {
+      "label": "pandas",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_pandas",
+      "community": 1,
+      "norm_label": "pandas"
+    },
+    {
+      "label": "numpy",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_numpy",
+      "community": 1,
+      "norm_label": "numpy"
+    },
+    {
+      "label": "scikit-learn",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_scikit_learn",
+      "community": 1,
+      "norm_label": "scikit-learn"
+    },
+    {
+      "label": "networkx",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_networkx",
+      "community": 1,
+      "norm_label": "networkx"
+    },
+    {
+      "label": "streamlit",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_streamlit",
+      "community": 2,
+      "norm_label": "streamlit"
+    },
+    {
+      "label": "plotly",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_plotly",
+      "community": 2,
+      "norm_label": "plotly"
+    },
+    {
+      "label": "joblib",
+      "file_type": "concept",
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirement_joblib",
+      "community": 1,
+      "norm_label": "joblib"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_anomaly_detection_model"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_feature_engineering"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_investigator_dashboard"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_network_analysis"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_risk_scoring"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_mule_account_detection_poc",
+      "target": "readme_synthetic_data_generation"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_generate_data_py",
+      "target": "readme_synthetic_data_generation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_synthetic_data_generation",
+      "target": "readme_feature_engineering"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_feature_engineering",
+      "target": "readme_anomaly_detection_model"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_train_model_py",
+      "target": "readme_feature_engineering"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_anomaly_detection_model",
+      "target": "readme_isolation_forest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_anomaly_detection_model",
+      "target": "readme_network_analysis"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_train_model_py",
+      "target": "readme_anomaly_detection_model"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_network_analysis",
+      "target": "readme_networkx"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_network_analysis",
+      "target": "readme_risk_scoring"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_train_model_py",
+      "target": "readme_network_analysis"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_risk_scoring",
+      "target": "readme_investigator_dashboard"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_train_model_py",
+      "target": "readme_risk_scoring"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_dashboard_py",
+      "target": "readme_investigator_dashboard"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirement_plotly",
+      "target": "readme_investigator_dashboard"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirement_joblib",
+      "target": "readme_train_model_py"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirement_streamlit",
+      "target": "readme_dashboard_py"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_joblib"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_networkx"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_numpy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_pandas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_plotly"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_scikit_learn"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_requirements_txt",
+      "target": "requirement_streamlit"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirement_scikit_learn",
+      "target": "readme_isolation_forest"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "requirement.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirement_networkx",
+      "target": "readme_networkx"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "mule_detection_pipeline",
+      "label": "Mule Account Detection Pipeline",
+      "nodes": [
+        "readme_synthetic_data_generation",
+        "readme_feature_engineering",
+        "readme_anomaly_detection_model",
+        "readme_network_analysis",
+        "readme_risk_scoring",
+        "readme_investigator_dashboard"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md"
+    }
+  ],
+  "built_at_commit": "2e4d0f5d83a94a503534dbf03185e4c28d6e32ff"
+}
